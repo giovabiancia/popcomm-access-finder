@@ -1,0 +1,26 @@
+{
+    "site_name" : 
+        [
+            {
+                "username" : "pippo baudo",
+                "password" : "gsdf78989gaf"
+            },
+            {
+                "username" : "jovanotti",
+                "password" : "8s7dfg78fsd"
+            }
+
+        ],
+    "site_name_second" : 
+        [
+            {
+                "username" : "mizzica",
+                "password" : "gsdf78989gaf"
+            },
+            {
+                "username" : "tupac shakur",
+                "password" : "8s7dfg78fsd"
+            }
+
+        ]
+}
