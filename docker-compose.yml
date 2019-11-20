@@ -15,7 +15,7 @@ services:
       gunicorn -b 0.0.0.0:8000
         --access-logfile -
         --reload
-        "snakeeyes.app:create_app()"
+        "popcomm.app:create_app()"
     env_file:
       - '.env'
     volumes:
@@ -23,13 +23,7 @@ services:
     ports:
       - '8000:8000'
 
-  celery:
-    build: .
-    command: celery worker -B -l info -A snakeeyes.blueprints.contact.tasks
-    env_file:
-      - '.env'
-    volumes:
-      - '.:/app'
+  
 
 volumes:
   redis:
