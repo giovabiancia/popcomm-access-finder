@@ -1,0 +1,40 @@
+{
+  "balletto_di_siena": {
+    "wp-admin": [
+      {
+        "user": "pippo baudo",
+        "pass": "123456789"
+      },
+      {
+        "user": "pippo baudo",
+        "pass": "123456789"
+      }
+    ],
+
+    "database": [
+      {
+        "hostname": "89.46.111.63",
+        "user": "sql1201038",
+        "pass": "57064332e1"
+      },
+      {
+        "hostname": "89.46.111.63",
+        "user": "sql1201038",
+        "pass": "57064332e1"
+      }
+    ],
+
+    "cpanel": [
+      {
+        "link": "www.rent-ride.com/cpanel",
+        "user": "exampleyoyo",
+        "pass": "57064332e1"
+      },
+      {
+        "link": "www.rent-ride.com/cpanel",
+        "user": "exampleyoagain",
+        "pass": "57064332e1"
+      }
+    ]
+  }
+}
